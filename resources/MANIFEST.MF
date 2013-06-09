@@ -1,0 +1,3 @@
+FMLCorePlugin: io.ecu.redux.asm.ReduxLoader
+
+

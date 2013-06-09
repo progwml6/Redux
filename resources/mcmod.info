@@ -1,0 +1,19 @@
+[
+{
+  "modid": "Redux",
+  "name": "Redux",
+  "description": "",
+  "version": "@VERSION@",
+  "credits": "",
+  "logoFile": "",
+  "mcversion": "1.4.7",
+  "url": "",
+  "updateUrl": "",
+  "authors": [ "EcuTruin", "progwml6", "Sunstrike" ],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": [
+     "mod_MinecraftForge"
+  ]
+}
+]
