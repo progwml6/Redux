@@ -1,4 +1,4 @@
-Redux A Mod From Quiddity Modding
+Redux - A Mod From Quiddity Modding
 =====
 Ecu - Designer
 Progwml6 - Lead Developer
