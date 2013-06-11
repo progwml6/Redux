@@ -1,10 +1,8 @@
-Redux - A Mod From Quiddity Modding
-=====
-Ecu - Designer
+#Redux - A Mod From Quiddity Modding
+###Development Team
+* Ecu - Designer
+* Progwml6 - Lead Developer
+* Sunstrike - Dev Support
 
-Progwml6 - Lead Developer
-
-Sunstrike - Dev Support
-
-Dependencies:
-Forge/FML
+###Dependencies
+* Forge/FML
