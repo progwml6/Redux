@@ -89,6 +89,10 @@
 		<!-- Fix executable permissions -->
 		<chmod dir="${forge.dir}" perm="ugo+rx" includes="**.sh"/>
 
+        <!-- Copy Redux AT -->
+        <mkdir dir="${forge.dir}/accesstransformers"/>
+        <copy todir="${forge.dir}/accesstransformers" file="${resources.dir}/redux_at.cfg"/>
+
 		<!-- Install forge -->
 		<exec dir="${forge.dir}" executable="cmd" osfamily="windows">
 			<arg line="/c install.cmd"/>
