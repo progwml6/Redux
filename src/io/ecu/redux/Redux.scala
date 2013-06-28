@@ -5,6 +5,7 @@ import collection.JavaConversions._
 import com.google.common.eventbus.{Subscribe, EventBus}
 import io.ecu.redux.helpers.ObjRepo._
 import cpw.mods.fml.common.event.{FMLPostInitializationEvent, FMLInitializationEvent, FMLPreInitializationEvent}
+import io.ecu.redux.util.ebus.EBusLoader
 
 /*
  * Redux
@@ -50,6 +51,9 @@ class Redux extends DummyModContainer(new ModMetadata()) {
     @Subscribe
     def preInit(event:FMLPreInitializationEvent) {
 
+        logger.info("prepping Redux event bus")
+        val ebusldr = EBusLoader
+        ebusldr.startEBus()
     }
 
     /**
